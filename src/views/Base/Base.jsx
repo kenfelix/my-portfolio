@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import { Header as Appheader, Footer as AppFooter } from 'components'
-import { AppContextProvider } from 'helper'
+import { Header as Appheader, Footer as AppFooter } from '@components'
+import { AppContextProvider } from '@helper'
 
 const Base = () => {
     return (

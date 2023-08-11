@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react'
-import { Hero, About, Experience, Skill, Work, Contact } from 'components'
+import { Hero, About, Experience, Skill, Work, Contact } from '@components'
 import { Navigation } from '@mui/icons-material'
 import { Fab } from '@mui/material'
 import { animateScroll as scroll, scrollSpy as spy } from "react-scroll";
-import { useAppContext } from 'helper';
+import { useAppContext } from '@helper';
 import throttle from 'lodash/throttle';
 
 const Home = () => {

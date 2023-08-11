@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react'
-import { Logo } from 'components'
-import { NAV } from 'src/constants'
+import { Logo } from '@components'
+import { NAV } from '@src/constants'
 import Button from '@mui/material/Button';
 import SouthIcon from '@mui/icons-material/South';
 import { motion } from 'framer-motion';
 import { Link } from "react-scroll";
-import { useAppContext } from 'helper';
+import { useAppContext } from '@helper';
 import { Menu } from '@mui/icons-material';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
