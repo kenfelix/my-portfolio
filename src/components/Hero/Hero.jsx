@@ -41,6 +41,7 @@ const Hero = () => {
             initial = {{ x: 90, opacity: 0 }}
             animate = {{ x: 0, opacity: 1 }}
             transition={{duration: .5, delay: 17 * 0.1}}
+            onClick={()=> {window.open("../../../public/resume.pdf")}}
             className='!bg-[#ff692d] !capitalize !w-[130px] md:!w-[200px] md:!text-xl md:!h-[60px]'>
               Download CV
           </AnimatedButton>

@@ -36,6 +36,10 @@ const Contact = () => {
         className='bg-[#f09d7c] !flex-grow max-w-[150px]'/>
       </div>
       <motion.div
+      initial = {{ y: 90, opacity: 0, scale: 1 }}
+      whileInView = {{ y: 0, opacity: 1 }}
+      viewport={{once: true}}
+      transition={{duration: .3}}
       className='w-full flex items-center justify-center'
       >
         <Typography variant="body2" className='text-[#A8B2D1] max-w-[600px] text-[20px]'>
