@@ -14,7 +14,7 @@ Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 framer-motoion, MaterialUI, react-icons
 
 ## 📌 Sneak Peek of Main Page 🙈 :
-![my-portfolio](https://user-images.githubusercontent.com/64949957/124947013-1f682080-e02d-11eb-977e-df3bbd4fa838.png)
+![my-portfolio](https://github.com/kenfelix/my-portfolio/blob/main/public/screenshot.png?raw=true)
 
 
 <h2>📬 Contact</h2>
