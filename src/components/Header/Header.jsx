@@ -113,7 +113,7 @@ const Header = () => {
           transition={{duration: .5, delay: 6 * 0.1}}
           variant="outlined"
           color="primary"
-          onClick={()=> {window.open("../../../public/resume.pdf")}}
+          onClick={()=> {window.open("../../../resume.pdf")}}
           className="!border-[#FF4900] focus:!ring-[#FF4900] !text-[#FF4900]"
           >Resume
           </AnimatedButton>
@@ -163,7 +163,7 @@ const Header = () => {
           initial = {{ y: -90, opacity: 0 }}
           animate = {{ y: 0, opacity: 1 }}
           transition={{duration: .5, delay: 6 * 0.1}}
-          onClick={()=> {window.open("../../../public/resume.pdf")}}
+          onClick={()=> {window.open("../../../resume.pdf")}}
           variant="outlined"
           color="primary"
           className="!border-[#FF4900] focus:!ring-[#FF4900] !text-[#FF4900]"
