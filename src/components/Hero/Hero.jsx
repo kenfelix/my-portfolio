@@ -10,12 +10,12 @@ const AnimatedButton = motion(Button)
 const Hero = () => {
   return (
     <section className='text-white w-full h-screen relative'>
-      <div className='flex flex-col py-[30px] gap-3 justify-start items-start lg:mt-[30px] xl:mt-[60px] lg:gap-5'>
+      <div className='flex flex-col pt-[30px] gap-3 justify-start items-start lg:mt-[30px] xl:mt-[60px] lg:gap-5'>
         <motion.div
         initial = {{ y: 90, opacity: 0 }}
         animate = {{ y: 0, opacity: 1 }}
         transition={{duration: .5, delay: 13 * 0.1}}
-        className='bg-[#ff692d] p-3 max-w-[150px] md:max-w-[200px] font-mono md:text-lg relative'>
+        className='bg-[#ff692d] p-3 md:max-w-[200px] font-mono md:text-lg relative'>
           <motion.p
             initial = {{ opacity: 0 }}
             animate = {{ opacity: 1 }}
@@ -33,9 +33,11 @@ const Hero = () => {
         initial = {{ y: 90, opacity: 0 }}
         animate = {{ y: 0, opacity: 1 }}
         transition={{duration: .5, delay: 16 * 0.1}}
-        className='text-[#8892B0] text-base lg:text-xl xl:text-2xl font-sans text-left max-w-[800px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ad consequatur blanditiis eaque. Vel, explicabo animi eius perferendis vero quos voluptatum, voluptatem totam a recusandae eaque dignissimos quaerat nulla consectetur.
+        className='text-[#8892B0] text-base lg:text-xl xl:text-2xl font-sans text-left max-w-[800px]'>
+          I am a software engineer with passion for turning ideas into software products. 
+          Aside my time playing the Guitar and singing, My most favourite hours is the time i spend on the IDE.
         </motion.p>
-        <div className='flex flex-row gap-2 mt-[50px] lg:mt-[30px]'>
+        <div className='flex flex-row gap-2 mt-[50px] lg:mt-[30px] w-full'>
           <AnimatedButton 
             variant='contained'
             initial = {{ x: 90, opacity: 0 }}
