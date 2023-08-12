@@ -35,7 +35,7 @@ const Hero = () => {
         transition={{duration: .5, delay: 16 * 0.1}}
         className='text-[#8892B0] text-base lg:text-xl xl:text-2xl font-sans text-left max-w-[800px]'>
           I am a software engineer with passion for turning ideas into software products. 
-          Aside my time playing the Guitar and singing, My most favourite hours is the time i spend on the IDE.
+          Aside my time playing the guitar and singing, my most favourite hours is the time i spend on the IDE.
         </motion.p>
         <div className='flex flex-row gap-2 mt-[50px] lg:mt-[30px] w-full'>
           <AnimatedButton 
