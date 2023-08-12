@@ -14,7 +14,7 @@ Portfolio website build using Reactjs.
 framer-motoion, MaterialUI, react-icons
 
 ## 📌 Sneak Peek of Main Page 🙈 :
-![my-portfolio](screenshot.png)
+![my-portfolio](public/screenshot.png)
 
 
 <h2>📬 Contact</h2>
